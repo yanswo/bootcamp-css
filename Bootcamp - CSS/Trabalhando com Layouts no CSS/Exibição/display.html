@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: sans-serif;
+        }
+
+        .exemplo {
+            background-color: brown;
+
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 8px;
+            padding: 5px;
+        }
+
+        .menu {
+            background-color: plum;
+        }
+        .menu ul li {
+            display: inline-block;
+            padding: 20px 40px;
+        }
+
+        .esconder-elemento {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!--Display Block-->
+    <h1>Propriedade <code>display</code></h1>
+    <p>A propriedade display vai determinar como essas caixinhas retangulares irão se comportar na hroa de serem exibidas na tela.</p>
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+    </ul>
+    <h2>Exemplos:</h2>
+    <p><code>display: block;</code></p>
+<br><br>
+    <div class="exemplo">Exemplo 01</div>
+    <p class="exemplo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio, fugit eligendi magni, ut eveniet assumenda odit cumque laudantium sequi neque? Debitis aperiam beatae eveniet animi quae, odio optio autem.</p>
+    <!--Display Inline-->
+    <br><br>
+    <code>display: inline;</code>
+    <br><br>
+
+    <span class="exemplo">Exemplo Inline 01</span>
+    
+    <em class="exemplo">Exemplo Inline 03</em>
+
+    <p class="exemplo" style="display: inline;">teste </p>
+    <!--Display inline-block-->
+    
+    <br><br>
+    <code>display: inline-block</code>
+    <br><br>
+    
+    <span class="exemplo inline-block">Exemplo Inline-Block 01</span>
+    <em class="exemplo inline-block">Exemplo Inline-Block 02</em>
+    <b class="exemplo inline-block">Exemplo Inline-Block 03</b>
+    <span class="exemplo inline-block">Exemplo Inline-Block 04</span>
+    <em class="exemplo inline-block">Exemplo Inline-Block 05</em>
+    <b class="exemplo inline-block">Exemplo Inline-Block 06</b>
+
+    <br><br><br>
+
+    <h3>Menu de nav</h3>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Link 01</a></li>
+            <li><a href="#">Link 02</a></li>
+            <li><a href="#">Link 03</a></li>
+        </ul>
+    </nav>
+    <!--Display None, obviamente ele esconde os elementos, não vi tanta coisa boa nisso-->
+    <br><br>
+    <code>display: none;</code>
+    <br><br>
+
+    <div class="exemplo esconder-elemento">Exemplo 0</div>
+
+
+
+
+
+</body>
+</html>

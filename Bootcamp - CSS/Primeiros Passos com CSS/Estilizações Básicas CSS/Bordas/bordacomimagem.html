@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    margin: 50px auto;
+}
+
+#exemplo-01 {
+    border-image-source: url('../Imagens/hellsing-ultimate.png');
+    
+    border-image-repeat: round; /* o melhor para imagens */
+    border-image-outset: 1 2 2 1; /* cima direita baixo esquerda */
+    
+}
+
+#exemplo-02 {
+    border-image-source: linear-gradient(crimson, black);
+    border-image-slice: 16;
+    border-image-width: 10px; /* cima direita baixo esquerda */
+}
+
+#exemplo-resumido {
+    border-image: url('../Imagens/hellsing-ultimate.png') 1 round;
+}
+    </style>
+</head>
+<body>
+    <h1>Bordas com imagens</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+
+    <h2> Exemplos: </h2>
+    <div id="exemplo resumido" class="exemplo"></div>
+    <br>
+    <div id="exemplo-01" class="exemplo"></div>
+    <br>
+    <div id="exemplo-02" class="exemplo"></div>
+    <br>
+    
+</body>
+</html>

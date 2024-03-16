@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            color: black;
+            background-color: chartreuse;
+        }
+        
+        
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .clip {
+            text-overflow: clip;
+        }
+
+        .psis {
+            text-overflow: ellipsis;
+        }
+
+        .string {
+            text-overflow: 'teste';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>text-overflow</code></h1>
+<div class="exemplo">
+    <code>text-overflow: clip;</code>
+
+    <p class="clip">Chega de saudade A realidade é que sem ela não há paz</p>
+
+    <code>text-overflow: ellipsis;</code>
+
+    <p class="psis">Chega de saudade A realidade é que sem ela não há paz</p>
+
+    <code>text-overflow: string;</code>
+
+    <p class="string">Chega de saudade A realidade é que sem ela não há paz</p>
+    </div>
+</body>
+</html>

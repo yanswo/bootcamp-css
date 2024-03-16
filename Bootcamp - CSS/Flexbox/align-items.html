@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: palegreen;
+            margin: 20px;
+            width: 300px;
+            height: 250px;
+            padding: 10px;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            align-content: space-around;
+        }
+
+        .item {
+            background: orange;
+            height: 40px;
+            width: 40px;
+        }
+
+        #container01 {
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        #container02 {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container" id="container01">
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+    </div>
+    <div class="container" id="container02">
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+        <div class="item item-1">Item 01</div>
+        <div class="item item-2">Item 02</div>
+        <div class="item item-3">Item 03</div>
+    </div>
+</body>
+</html>
